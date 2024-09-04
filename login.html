@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Saúde Mental com IA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8ff; /* Cor de fundo suave */
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4a90e2; /* Cor de fundo do cabeçalho */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.container {
+    width: 80%;
+    margin: 2rem auto;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-box h2 {
+    margin-bottom: 1.5rem;
+    color: #4a90e2; /* Cor para o título */
+    font-size: 2rem;
+}
+
+.textbox {
+    margin-bottom: 1.5rem;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b2dfdb; /* Cor suave para a borda dos campos */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background: #4a90e2; /* Cor do botão */
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #357abd; /* Cor do botão ao passar o mouse */
+}
+
+.info {
+    margin-top: 1rem;
+    font-size: 14px;
+    color: #4a90e2; /* Cor do texto de informação */
+}
+
+footer {
+    background-color: #4a90e2; /* Cor do rodapé */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+</style>
+<body>
+    <header>
+        <!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilos gerais */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        /* Cabeçalho e navegação */
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+        }
+
+        .nav-links li {
+            margin: 0 1rem;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            display: block;
+            transition: background 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            background: #575757;
+            border-radius: 5px;
+        }
+
+        /* Conteúdo principal */
+        main {
+            padding: 1rem;
+        }
+
+        /* Rodapé */
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Bem-vindo ao Meu Site!</h1>
+        <p>saude.</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilos gerais */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        /* Cabeçalho e navegação */
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+        }
+
+        .nav-links li {
+            margin: 0 1rem;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            display: block;
+            transition: background 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            background: #575757;
+            border-radius: 5px;
+        }
+
+        /* Conteúdo principal */
+        main {
+            padding: 1rem;
+        }
+
+        /* Rodapé */
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="index9.html">Sobre</a></li>
+                <li><a href="login.html">Serviços</a></li>
+                <li><a href="raiani.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Bem-vindo ao Meu Site!</h1>
+        <p>Conteúdo da página inicial.</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
+
+
+        <h1>Tecnologias e IA para Melhorar a Saúde Mental</h1>
+    </header>
+    <div class="container">
+        <div class="login-box">
+            <h2>Entrar</h2>
+            <form action="/login" method="post">
+                <div class="textbox">
+                    <input type="text" placeholder="Usuário" name="username" required>
+                </div>
+                <div class="textbox">
+                    <input type="password" placeholder="Senha" name="password" required>
+                </div>
+                <input type="submit" class="btn" value="Entrar">
+                <p class="info">Sua jornada para explorar tecnologias de saúde mental começa aqui.</p>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Projeto de Saúde Mental com IA. Todos os direitos reservados.</p>
+    </footer>
+    <a href="index.html">Sobre</a>
+    <a href="index9.html">Sobre</a>
+    <a href="raiani.html">Sobre</a>
+    <a href="siteindex.html">Sobre</a>
+</body>
+</html>
